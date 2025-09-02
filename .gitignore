@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+.venv/
+
+# Django
+*.log
+*.pot
+*.py[cod]
+db.sqlite3
+media/
+staticfiles/
+
+# VSCode / JetBrains
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.local
+
+# Docker
+docker-compose.override.yml
+*.tar
+
+# OS
+.DS_Store
+Thumbs.db
