@@ -42,6 +42,21 @@ MVP backend-сервиса “Страховой калькулятор” на 
 > Пример: `silver` (1200) + возраст 22 (1.30) + стаж 1 (1.40) + `suv` (1.20):  
 > `1200 × 1.30 × 1.40 × 1.20 = 2620.80`
 
+### Конфигурация `.env`
+Создайте файл `.env` в корне проекта:
+
+```ini
+SECRET_KEY=super-secret-key
+
+POSTGRES_DB=bima_db
+POSTGRES_USER=bima_user
+POSTGRES_PASSWORD=strongpassword
+POSTGRES_HOST=db
+POSTGRES_PORT=5432
+
+SIMPLE_JWT_ACCESS_TOKEN_LIFETIME_MINUTES=60
+SIMPLE_JWT_REFRESH_TOKEN_LIFETIME_DAYS=7
+
 
 ### Запуск через Docker
 ```bash
