@@ -4,10 +4,11 @@ from django.conf import settings
 
 class Quote(models.Model):
     CAR_CHOICES = [
-        ('sedan', 'Sedan'),
-        ('suv', 'SUV'),
-        ('truck', 'Truck'),
+    ('small', 'Small'),
+    ('sedan', 'Sedan'),
+    ('suv', 'SUV'),
     ]
+
     TARIFF_CHOICES = [
       ('basic','Basic'),
       ('silver','Silver'),
